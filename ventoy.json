@@ -1,0 +1,133 @@
+{
+    "control":[
+        { "VTOY_DEFAULT_MENU_MODE": "1" }
+    ],
+    "theme":{
+        "file": "/ventoy/theme/theme.txt",
+        "gfxmode": "max",
+        "ventoy_color": "#222023",
+        "fonts":[
+            "/ventoy/theme/dejavu_sans_16.pf2"
+        ]
+    },
+    "menu_alias":[
+        {
+            "dir": "/linux-iso",
+            "alias": "Linux ISO"
+        },
+        {
+            "image": "/HBCD_PE_x64.iso",
+            "alias": "Hiren's BootCD PE v1.0.8"
+        },
+        {
+            "image": "/linux-iso/x86_64/guix-system-install-1.4.0.x86_64-linux.iso",
+            "alias": "Guix System 1.4.0"
+        },
+        {
+            "image": "/linux-iso/x86_64/archlinux/archlinux-2024.12.01-x86_64.iso",
+            "alias": "Arch Linux 2024.12.01"
+        },
+        {
+            "image": "/linux-iso/x86_64/archlinux/archlinux-apfs-2024.12.29-x86_64.iso",
+            "alias": "Arch Linux APFS 2024.12.29"
+        },
+        {
+            "image": "/linux-iso/x86_64/fedora/Fedora-Kinoite-ostree-x86_64-41-1.4.iso",
+            "alias": "Fedora Kinoite 41"
+        },
+        {
+            "image": "/linux-iso/x86_64/fedora/Fedora-Server-dvd-x86_64-41-1.4.iso",
+            "alias": "Fedora Server 41"
+        },
+        {
+            "image": "/linux-iso/x86_64/fedora/Fedora-Workstation-Live-x86_64-41-1.4.iso",
+            "alias": "Fedora Workstation 41"
+        },
+        {
+            "image": "/linux-iso/x86_64/tails-amd64-6.10.img",
+            "alias": "Tails 6.10"
+        },
+        {
+            "image": "/linux-iso/aarch64/Fedora-Server-dvd-aarch64-41-1.4.iso",
+            "alias": "Fedora Server 41 aarch64"
+        },
+        {
+            "image": "/linux-iso/aarch64/gentoo-install-arm64-minimal-20241117T233317Z.iso",
+            "alias": "Gentoo ARM64 20241117"
+        },
+        {
+            "image": "/linux-iso/x86_64/cachyos-desktop-linux-241221.iso",
+            "alias": "CachyOS Desktop 20241221"
+        },
+        {
+            "image": "/linux-iso/aarch64/Fedora-Kinoite-ostree-aarch64-41-1.4.iso",
+            "alias": "Fedora Kinoite 41 aarch64"
+        },
+        {
+            "image": "/linux-iso/x86_64/install-amd64-minimal-20241229T163322Z.iso",
+            "alias": "Gentoo AMD64 20241229"
+        },
+        {
+            "image": "/linux-iso/aarch64/eweos-aarch64-liveimage-standard.iso",
+            "alias": "eweOS Standard aarch64"
+        }
+    ],
+    "menu_class":[
+        {
+            "key": "windows",
+            "class": "windows"
+        },
+        {
+            "key": "PE",
+            "class": "windows"
+        },
+        {
+            "key": "linux",
+            "class": "linux"
+        },
+        {
+            "key": "deepin",
+            "class": "deepin"
+        },
+        {
+            "key": "manjaro",
+            "class": "manjaro"
+        },
+        {
+            "key": "arch",
+            "class": "arch"
+        },
+        {
+            "key": "debian",
+            "class": "debian"
+        },
+        {
+            "key": "Fedora",
+            "class": "fedora"
+        },
+        {
+            "key": "guix",
+            "class": "linux"
+        },
+        {
+            "key": "tails",
+            "class": "linux"
+        },
+        {
+            "dir": "/linux-iso",
+            "class": "linux"
+        },
+        {
+            "dir": "/windows-iso",
+            "class": "windows"
+        },
+        {
+            "dir": "/linux-iso/archlinux",
+            "class": "archlinux"
+        },
+        {
+            "dir": "/linux-iso/fedora",
+            "class": "fedora"
+        }
+    ]
+}
