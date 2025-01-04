@@ -1,16 +1,21 @@
 {
-    "control":[
-        { "VTOY_DEFAULT_MENU_MODE": "1" }
+    "control": [
+        {
+            "VTOY_DEFAULT_MENU_MODE": "1"
+        }
     ],
-    "theme":{
+    "theme": {
         "file": "/ventoy/theme/theme.txt",
         "gfxmode": "max",
         "ventoy_color": "#222023",
-        "fonts":[
-            "/ventoy/theme/dejavu_sans_16.pf2"
+        "fonts": [
+            "/ventoy/theme/terminus-12.pf2",
+            "/ventoy/theme/terminus-14.pf2",
+            "/ventoy/theme/terminus-16.pf2",
+            "/ventoy/theme/terminus-18.pf2"
         ]
     },
-    "menu_alias":[
+    "menu_alias": [
         {
             "dir": "/linux-iso",
             "alias": "Linux ISO"
@@ -72,7 +77,7 @@
             "alias": "eweOS Standard aarch64"
         }
     ],
-    "menu_class":[
+    "menu_class": [
         {
             "key": "windows",
             "class": "windows"
