@@ -95,6 +95,10 @@
             "class": "archlinux"
         },
         {
+            "key": "cachyos",
+            "class": "cachyos"
+        },
+        {
             "key": "gentoo",
             "class": "gentoo"
         },
