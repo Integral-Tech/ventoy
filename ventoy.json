@@ -1,21 +1,19 @@
 {
-    "control": [
-        {
-            "VTOY_DEFAULT_MENU_MODE": "1"
-        }
+    "control":[
+        { "VTOY_DEFAULT_MENU_MODE": "1" }
     ],
-    "theme": {
+    "theme":{
         "file": "/ventoy/theme/theme.txt",
         "gfxmode": "max",
         "ventoy_color": "#222023",
-        "fonts": [
+        "fonts":[
             "/ventoy/theme/terminus-12.pf2",
             "/ventoy/theme/terminus-14.pf2",
             "/ventoy/theme/terminus-16.pf2",
             "/ventoy/theme/terminus-18.pf2"
         ]
     },
-    "menu_alias": [
+    "menu_alias":[
         {
             "dir": "/linux-iso",
             "alias": "Linux ISO"
@@ -27,14 +25,6 @@
         {
             "image": "/linux-iso/x86_64/guix-system-install-1.4.0.x86_64-linux.iso",
             "alias": "Guix System 1.4.0"
-        },
-        {
-            "image": "/linux-iso/x86_64/archlinux/archlinux-2024.12.01-x86_64.iso",
-            "alias": "Arch Linux 2024.12.01"
-        },
-        {
-            "image": "/linux-iso/x86_64/archlinux/archlinux-apfs-2024.12.29-x86_64.iso",
-            "alias": "Arch Linux APFS 2024.12.29"
         },
         {
             "image": "/linux-iso/x86_64/fedora/Fedora-Kinoite-ostree-x86_64-41-1.4.iso",
@@ -53,31 +43,31 @@
             "alias": "Tails 6.10"
         },
         {
-            "image": "/linux-iso/aarch64/Fedora-Server-dvd-aarch64-41-1.4.iso",
-            "alias": "Fedora Server 41 aarch64"
-        },
-        {
-            "image": "/linux-iso/aarch64/gentoo-install-arm64-minimal-20241117T233317Z.iso",
-            "alias": "Gentoo ARM64 20241117"
-        },
-        {
             "image": "/linux-iso/x86_64/cachyos-desktop-linux-241221.iso",
             "alias": "CachyOS Desktop 20241221"
         },
         {
-            "image": "/linux-iso/aarch64/Fedora-Kinoite-ostree-aarch64-41-1.4.iso",
+            "image": "/linux-iso/x86_64/archlinux/archlinux-2025.01.01-x86_64.iso",
+            "alias": "Arch Linux 2025.01.01"
+        },
+        {
+            "image": "/linux-iso/x86_64/archlinux/archlinux-apfs-2025.01.05-x86_64.iso",
+            "alias": "Arch Linux APFS 2025.01.05"
+        },
+        {
+            "image": "/linux-iso/aarch64/fedora/Fedora-Server-dvd-aarch64-41-1.4.iso",
+            "alias": "Fedora Server 41 aarch64"
+        },
+        {
+            "image": "/linux-iso/aarch64/fedora/Fedora-Kinoite-ostree-aarch64-41-1.4.iso",
             "alias": "Fedora Kinoite 41 aarch64"
         },
         {
-            "image": "/linux-iso/x86_64/install-amd64-minimal-20241229T163322Z.iso",
-            "alias": "Gentoo AMD64 20241229"
-        },
-        {
-            "image": "/linux-iso/aarch64/eweos-aarch64-liveimage-standard.iso",
-            "alias": "eweOS Standard aarch64"
+            "image": "/linux-iso/x86_64/install-amd64-minimal-20250105T170325Z.iso",
+            "alias": "Gentoo AMD64 20250105"
         }
     ],
-    "menu_class": [
+    "menu_class":[
         {
             "key": "windows",
             "class": "windows"
