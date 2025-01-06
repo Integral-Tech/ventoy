@@ -108,7 +108,7 @@
         },
         {
             "key": "tails",
-            "class": "linux"
+            "class": "tails"
         },
         {
             "dir": "/linux-iso",
