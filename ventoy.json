@@ -1,22 +1,36 @@
 {
-    "control":[
-        { "VTOY_DEFAULT_MENU_MODE": "1" }
+    "control": [
+        {
+            "VTOY_DEFAULT_MENU_MODE": "1"
+        }
     ],
-    "theme":{
+    "theme": {
         "file": "/ventoy/theme/theme.txt",
         "gfxmode": "max",
         "ventoy_color": "#222023",
-        "fonts":[
+        "fonts": [
             "/ventoy/theme/terminus-12.pf2",
             "/ventoy/theme/terminus-14.pf2",
             "/ventoy/theme/terminus-16.pf2",
             "/ventoy/theme/terminus-18.pf2"
         ]
     },
-    "menu_alias":[
+    "menu_alias": [
         {
             "dir": "/linux-iso",
             "alias": "Linux ISO"
+        },
+        {
+            "dir": "/linux-iso/x86_64/archlinux",
+            "alias": "Arch Linux"
+        },
+        {
+            "dir": "/linux-iso/x86_64/fedora",
+            "alias": "Fedora"
+        },
+        {
+            "dir": "/linux-iso/aarch64/fedora",
+            "alias": "Fedora"
         },
         {
             "image": "/HBCD_PE_x64.iso",
@@ -63,11 +77,11 @@
             "alias": "Fedora Kinoite 41 aarch64"
         },
         {
-            "image": "/linux-iso/x86_64/install-amd64-minimal-20250105T170325Z.iso",
+            "image": "/linux-iso/x86_64/gentoo-install-amd64-minimal-20250105T170325Z.iso",
             "alias": "Gentoo AMD64 20250105"
         }
     ],
-    "menu_class":[
+    "menu_class": [
         {
             "key": "windows",
             "class": "windows"
@@ -77,24 +91,12 @@
             "class": "windows"
         },
         {
-            "key": "linux",
-            "class": "linux"
+            "key": "archlinux",
+            "class": "archlinux"
         },
         {
-            "key": "deepin",
-            "class": "deepin"
-        },
-        {
-            "key": "manjaro",
-            "class": "manjaro"
-        },
-        {
-            "key": "arch",
-            "class": "arch"
-        },
-        {
-            "key": "debian",
-            "class": "debian"
+            "key": "gentoo",
+            "class": "gentoo"
         },
         {
             "key": "Fedora",
@@ -117,11 +119,15 @@
             "class": "windows"
         },
         {
-            "dir": "/linux-iso/archlinux",
+            "dir": "/linux-iso/x86_64/archlinux",
             "class": "archlinux"
         },
         {
-            "dir": "/linux-iso/fedora",
+            "dir": "/linux-iso/x86_64/fedora",
+            "class": "fedora"
+        },
+        {
+            "dir": "/linux-iso/aarch64/fedora",
             "class": "fedora"
         }
     ]
